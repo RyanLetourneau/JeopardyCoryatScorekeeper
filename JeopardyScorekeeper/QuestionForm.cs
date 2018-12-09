@@ -30,14 +30,7 @@ namespace JeopardyScorekeeper
 
         private void btnAnswer_Click(object sender, EventArgs e)
         {
-            if(this.textBoxAnswer.Visible)
-            {
-                this.textBoxAnswer.Visible = false;
-            }
-            else
-            {
-                this.textBoxAnswer.Visible = true;
-            }
+            textBoxAnswer.Visible = !textBoxAnswer.Visible;
         }
     }
 }
