@@ -66,6 +66,7 @@ namespace JeopardyScorekeeper
 
         private void btnClicked(object sender, EventArgs e)
         {
+            
             Button btnSender = (Button)sender; //get reference to make method reusable
             if(btnSender.BackColor == Color.Blue)
             {
@@ -82,9 +83,14 @@ namespace JeopardyScorekeeper
                     btnSender.BackColor = Color.Blue;
                 }
             }
-            SetScoreText(CalculateScore(scoreButtons));
+            SetScoreText(CalculateScore(scoreButtons));  
             
-            
+        }
+
+        private void generateQuestionForm()
+        {
+            QuestionForm qf = new QuestionForm(QuestionGrabber.GetQuestion());
+            qf.Show();
         }
 
         public double CalculateScore(List<Button> buttons)
