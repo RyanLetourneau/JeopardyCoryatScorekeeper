@@ -10,8 +10,12 @@ using System.Windows.Forms;
 
 namespace JeopardyScorekeeper
 {
+    
     public partial class MainForm : Form
     {
+        //string filepath = @"C:/Users/Public/JeopardyScores/JeopardyScores.txt";
+        string filepath = Properties.Settings.Default.filename;
+
         List<Button> scoreButtons = new List<Button>();
         double roundOneScore = 0;
         bool doubleJeopardy = false;
@@ -184,7 +188,22 @@ namespace JeopardyScorekeeper
             {
                 DateTime today = DateTime.Now;
                 string[] lines = { today.Month + "/" + today.Day + "/" + today.Year + " " + labelScore.Text.Remove(0, 1) };
-                System.IO.File.AppendAllLines(@"C:/Users/Public/JeopardyScores/JeopardyScores.txt", lines);
+                if(filepath != null && filepath != "null")
+                {
+                    System.IO.File.AppendAllLines(filepath, lines);
+                }
+                else
+                {
+                    OpenFileDialog filepathDialog = new OpenFileDialog();
+                    if(filepathDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        filepath = filepathDialog.FileName;
+                        Properties.Settings.Default.filename = filepath;
+                        Properties.Settings.Default.Save();
+                        System.IO.File.AppendAllLines(filepath, lines);
+                    }
+                }
+                
 
                 ResetGameToStart();
             }
