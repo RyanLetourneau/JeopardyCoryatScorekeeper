@@ -63,6 +63,12 @@
             this.btnCol6Row3 = new System.Windows.Forms.Button();
             this.btnCol6Row4 = new System.Windows.Forms.Button();
             this.btnCol6Row5 = new System.Windows.Forms.Button();
+            this.textCat1 = new System.Windows.Forms.TextBox();
+            this.textCat2 = new System.Windows.Forms.TextBox();
+            this.textCat3 = new System.Windows.Forms.TextBox();
+            this.textCat4 = new System.Windows.Forms.TextBox();
+            this.textCat5 = new System.Windows.Forms.TextBox();
+            this.textCat6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCol1Row1
@@ -70,7 +76,7 @@
             this.btnCol1Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol1Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol1Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol1Row1.Location = new System.Drawing.Point(13, 13);
+            this.btnCol1Row1.Location = new System.Drawing.Point(12, 107);
             this.btnCol1Row1.Name = "btnCol1Row1";
             this.btnCol1Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol1Row1.TabIndex = 0;
@@ -83,7 +89,7 @@
             this.btnCol2Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol2Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol2Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol2Row1.Location = new System.Drawing.Point(166, 13);
+            this.btnCol2Row1.Location = new System.Drawing.Point(166, 107);
             this.btnCol2Row1.Name = "btnCol2Row1";
             this.btnCol2Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol2Row1.TabIndex = 1;
@@ -96,7 +102,7 @@
             this.btnCol3Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol3Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol3Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol3Row1.Location = new System.Drawing.Point(319, 13);
+            this.btnCol3Row1.Location = new System.Drawing.Point(319, 107);
             this.btnCol3Row1.Name = "btnCol3Row1";
             this.btnCol3Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol3Row1.TabIndex = 2;
@@ -109,7 +115,7 @@
             this.btnCol4Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol4Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol4Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol4Row1.Location = new System.Drawing.Point(472, 13);
+            this.btnCol4Row1.Location = new System.Drawing.Point(472, 107);
             this.btnCol4Row1.Name = "btnCol4Row1";
             this.btnCol4Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol4Row1.TabIndex = 3;
@@ -122,7 +128,7 @@
             this.btnCol5Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol5Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol5Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol5Row1.Location = new System.Drawing.Point(625, 13);
+            this.btnCol5Row1.Location = new System.Drawing.Point(625, 107);
             this.btnCol5Row1.Name = "btnCol5Row1";
             this.btnCol5Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol5Row1.TabIndex = 4;
@@ -135,7 +141,7 @@
             this.btnCol1Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol1Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol1Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol1Row2.Location = new System.Drawing.Point(12, 128);
+            this.btnCol1Row2.Location = new System.Drawing.Point(11, 222);
             this.btnCol1Row2.Name = "btnCol1Row2";
             this.btnCol1Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol1Row2.TabIndex = 5;
@@ -148,7 +154,7 @@
             this.btnCol2Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol2Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol2Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol2Row2.Location = new System.Drawing.Point(165, 128);
+            this.btnCol2Row2.Location = new System.Drawing.Point(165, 222);
             this.btnCol2Row2.Name = "btnCol2Row2";
             this.btnCol2Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol2Row2.TabIndex = 6;
@@ -161,7 +167,7 @@
             this.btnCol3Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol3Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol3Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol3Row2.Location = new System.Drawing.Point(319, 128);
+            this.btnCol3Row2.Location = new System.Drawing.Point(319, 222);
             this.btnCol3Row2.Name = "btnCol3Row2";
             this.btnCol3Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol3Row2.TabIndex = 7;
@@ -174,7 +180,7 @@
             this.btnCol4Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol4Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol4Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol4Row2.Location = new System.Drawing.Point(472, 128);
+            this.btnCol4Row2.Location = new System.Drawing.Point(472, 222);
             this.btnCol4Row2.Name = "btnCol4Row2";
             this.btnCol4Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol4Row2.TabIndex = 8;
@@ -187,7 +193,7 @@
             this.btnCol5Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol5Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol5Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol5Row2.Location = new System.Drawing.Point(625, 128);
+            this.btnCol5Row2.Location = new System.Drawing.Point(625, 222);
             this.btnCol5Row2.Name = "btnCol5Row2";
             this.btnCol5Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol5Row2.TabIndex = 9;
@@ -200,7 +206,7 @@
             this.btnCol1Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol1Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol1Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol1Row3.Location = new System.Drawing.Point(12, 243);
+            this.btnCol1Row3.Location = new System.Drawing.Point(11, 337);
             this.btnCol1Row3.Name = "btnCol1Row3";
             this.btnCol1Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol1Row3.TabIndex = 10;
@@ -213,7 +219,7 @@
             this.btnCol2Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol2Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol2Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol2Row3.Location = new System.Drawing.Point(166, 243);
+            this.btnCol2Row3.Location = new System.Drawing.Point(166, 337);
             this.btnCol2Row3.Name = "btnCol2Row3";
             this.btnCol2Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol2Row3.TabIndex = 11;
@@ -226,7 +232,7 @@
             this.btnCol3Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol3Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol3Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol3Row3.Location = new System.Drawing.Point(319, 243);
+            this.btnCol3Row3.Location = new System.Drawing.Point(319, 337);
             this.btnCol3Row3.Name = "btnCol3Row3";
             this.btnCol3Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol3Row3.TabIndex = 12;
@@ -239,7 +245,7 @@
             this.btnCol4Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol4Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol4Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol4Row3.Location = new System.Drawing.Point(472, 243);
+            this.btnCol4Row3.Location = new System.Drawing.Point(472, 337);
             this.btnCol4Row3.Name = "btnCol4Row3";
             this.btnCol4Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol4Row3.TabIndex = 13;
@@ -252,7 +258,7 @@
             this.btnCol5Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol5Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol5Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol5Row3.Location = new System.Drawing.Point(625, 243);
+            this.btnCol5Row3.Location = new System.Drawing.Point(625, 337);
             this.btnCol5Row3.Name = "btnCol5Row3";
             this.btnCol5Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol5Row3.TabIndex = 14;
@@ -265,7 +271,7 @@
             this.btnCol1Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol1Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol1Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol1Row4.Location = new System.Drawing.Point(12, 358);
+            this.btnCol1Row4.Location = new System.Drawing.Point(11, 452);
             this.btnCol1Row4.Name = "btnCol1Row4";
             this.btnCol1Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol1Row4.TabIndex = 15;
@@ -278,7 +284,7 @@
             this.btnCol2Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol2Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol2Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol2Row4.Location = new System.Drawing.Point(165, 358);
+            this.btnCol2Row4.Location = new System.Drawing.Point(165, 452);
             this.btnCol2Row4.Name = "btnCol2Row4";
             this.btnCol2Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol2Row4.TabIndex = 16;
@@ -291,7 +297,7 @@
             this.btnCol3Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol3Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol3Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol3Row4.Location = new System.Drawing.Point(319, 358);
+            this.btnCol3Row4.Location = new System.Drawing.Point(319, 452);
             this.btnCol3Row4.Name = "btnCol3Row4";
             this.btnCol3Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol3Row4.TabIndex = 17;
@@ -304,7 +310,7 @@
             this.btnCol4Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol4Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol4Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol4Row4.Location = new System.Drawing.Point(472, 358);
+            this.btnCol4Row4.Location = new System.Drawing.Point(472, 452);
             this.btnCol4Row4.Name = "btnCol4Row4";
             this.btnCol4Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol4Row4.TabIndex = 18;
@@ -317,7 +323,7 @@
             this.btnCol5Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol5Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol5Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol5Row4.Location = new System.Drawing.Point(625, 358);
+            this.btnCol5Row4.Location = new System.Drawing.Point(625, 452);
             this.btnCol5Row4.Name = "btnCol5Row4";
             this.btnCol5Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol5Row4.TabIndex = 19;
@@ -330,7 +336,7 @@
             this.btnCol1Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol1Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol1Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol1Row5.Location = new System.Drawing.Point(13, 473);
+            this.btnCol1Row5.Location = new System.Drawing.Point(12, 567);
             this.btnCol1Row5.Name = "btnCol1Row5";
             this.btnCol1Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol1Row5.TabIndex = 20;
@@ -343,7 +349,7 @@
             this.btnCol2Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol2Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol2Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol2Row5.Location = new System.Drawing.Point(165, 473);
+            this.btnCol2Row5.Location = new System.Drawing.Point(165, 567);
             this.btnCol2Row5.Name = "btnCol2Row5";
             this.btnCol2Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol2Row5.TabIndex = 21;
@@ -356,7 +362,7 @@
             this.btnCol3Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol3Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol3Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol3Row5.Location = new System.Drawing.Point(319, 473);
+            this.btnCol3Row5.Location = new System.Drawing.Point(319, 567);
             this.btnCol3Row5.Name = "btnCol3Row5";
             this.btnCol3Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol3Row5.TabIndex = 22;
@@ -369,7 +375,7 @@
             this.btnCol4Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol4Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol4Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol4Row5.Location = new System.Drawing.Point(472, 473);
+            this.btnCol4Row5.Location = new System.Drawing.Point(472, 567);
             this.btnCol4Row5.Name = "btnCol4Row5";
             this.btnCol4Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol4Row5.TabIndex = 23;
@@ -382,7 +388,7 @@
             this.btnCol5Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol5Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol5Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol5Row5.Location = new System.Drawing.Point(625, 473);
+            this.btnCol5Row5.Location = new System.Drawing.Point(625, 567);
             this.btnCol5Row5.Name = "btnCol5Row5";
             this.btnCol5Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol5Row5.TabIndex = 24;
@@ -448,7 +454,7 @@
             this.btnCol6Row1.BackColor = System.Drawing.Color.Blue;
             this.btnCol6Row1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol6Row1.ForeColor = System.Drawing.Color.White;
-            this.btnCol6Row1.Location = new System.Drawing.Point(778, 13);
+            this.btnCol6Row1.Location = new System.Drawing.Point(778, 107);
             this.btnCol6Row1.Name = "btnCol6Row1";
             this.btnCol6Row1.Size = new System.Drawing.Size(147, 109);
             this.btnCol6Row1.TabIndex = 30;
@@ -461,7 +467,7 @@
             this.btnCol6Row2.BackColor = System.Drawing.Color.Blue;
             this.btnCol6Row2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol6Row2.ForeColor = System.Drawing.Color.White;
-            this.btnCol6Row2.Location = new System.Drawing.Point(778, 128);
+            this.btnCol6Row2.Location = new System.Drawing.Point(778, 222);
             this.btnCol6Row2.Name = "btnCol6Row2";
             this.btnCol6Row2.Size = new System.Drawing.Size(147, 109);
             this.btnCol6Row2.TabIndex = 31;
@@ -474,7 +480,7 @@
             this.btnCol6Row3.BackColor = System.Drawing.Color.Blue;
             this.btnCol6Row3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol6Row3.ForeColor = System.Drawing.Color.White;
-            this.btnCol6Row3.Location = new System.Drawing.Point(778, 243);
+            this.btnCol6Row3.Location = new System.Drawing.Point(778, 337);
             this.btnCol6Row3.Name = "btnCol6Row3";
             this.btnCol6Row3.Size = new System.Drawing.Size(147, 109);
             this.btnCol6Row3.TabIndex = 32;
@@ -487,7 +493,7 @@
             this.btnCol6Row4.BackColor = System.Drawing.Color.Blue;
             this.btnCol6Row4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol6Row4.ForeColor = System.Drawing.Color.White;
-            this.btnCol6Row4.Location = new System.Drawing.Point(778, 358);
+            this.btnCol6Row4.Location = new System.Drawing.Point(778, 452);
             this.btnCol6Row4.Name = "btnCol6Row4";
             this.btnCol6Row4.Size = new System.Drawing.Size(147, 109);
             this.btnCol6Row4.TabIndex = 33;
@@ -500,7 +506,7 @@
             this.btnCol6Row5.BackColor = System.Drawing.Color.Blue;
             this.btnCol6Row5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCol6Row5.ForeColor = System.Drawing.Color.White;
-            this.btnCol6Row5.Location = new System.Drawing.Point(778, 474);
+            this.btnCol6Row5.Location = new System.Drawing.Point(778, 568);
             this.btnCol6Row5.Name = "btnCol6Row5";
             this.btnCol6Row5.Size = new System.Drawing.Size(147, 109);
             this.btnCol6Row5.TabIndex = 34;
@@ -508,11 +514,95 @@
             this.btnCol6Row5.UseVisualStyleBackColor = false;
             this.btnCol6Row5.Click += new System.EventHandler(this.btnClicked);
             // 
+            // textCat1
+            // 
+            this.textCat1.BackColor = System.Drawing.Color.Blue;
+            this.textCat1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat1.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat1.Location = new System.Drawing.Point(13, 13);
+            this.textCat1.Multiline = true;
+            this.textCat1.Name = "textCat1";
+            this.textCat1.Size = new System.Drawing.Size(147, 88);
+            this.textCat1.TabIndex = 35;
+            this.textCat1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCat2
+            // 
+            this.textCat2.BackColor = System.Drawing.Color.Blue;
+            this.textCat2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat2.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat2.Location = new System.Drawing.Point(166, 13);
+            this.textCat2.Multiline = true;
+            this.textCat2.Name = "textCat2";
+            this.textCat2.Size = new System.Drawing.Size(147, 88);
+            this.textCat2.TabIndex = 36;
+            this.textCat2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCat3
+            // 
+            this.textCat3.BackColor = System.Drawing.Color.Blue;
+            this.textCat3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat3.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat3.Location = new System.Drawing.Point(319, 13);
+            this.textCat3.Multiline = true;
+            this.textCat3.Name = "textCat3";
+            this.textCat3.Size = new System.Drawing.Size(147, 88);
+            this.textCat3.TabIndex = 37;
+            this.textCat3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCat4
+            // 
+            this.textCat4.BackColor = System.Drawing.Color.Blue;
+            this.textCat4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat4.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat4.Location = new System.Drawing.Point(472, 13);
+            this.textCat4.Multiline = true;
+            this.textCat4.Name = "textCat4";
+            this.textCat4.Size = new System.Drawing.Size(147, 88);
+            this.textCat4.TabIndex = 38;
+            this.textCat4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCat5
+            // 
+            this.textCat5.BackColor = System.Drawing.Color.Blue;
+            this.textCat5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat5.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat5.Location = new System.Drawing.Point(625, 13);
+            this.textCat5.Multiline = true;
+            this.textCat5.Name = "textCat5";
+            this.textCat5.Size = new System.Drawing.Size(147, 88);
+            this.textCat5.TabIndex = 39;
+            this.textCat5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCat6
+            // 
+            this.textCat6.BackColor = System.Drawing.Color.Blue;
+            this.textCat6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.textCat6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCat6.ForeColor = System.Drawing.Color.Yellow;
+            this.textCat6.Location = new System.Drawing.Point(778, 13);
+            this.textCat6.Multiline = true;
+            this.textCat6.Name = "textCat6";
+            this.textCat6.Size = new System.Drawing.Size(147, 88);
+            this.textCat6.TabIndex = 40;
+            this.textCat6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 602);
+            this.ClientSize = new System.Drawing.Size(1247, 689);
+            this.Controls.Add(this.textCat6);
+            this.Controls.Add(this.textCat5);
+            this.Controls.Add(this.textCat4);
+            this.Controls.Add(this.textCat3);
+            this.Controls.Add(this.textCat2);
+            this.Controls.Add(this.textCat1);
             this.Controls.Add(this.btnCol6Row5);
             this.Controls.Add(this.btnCol6Row4);
             this.Controls.Add(this.btnCol6Row3);
@@ -593,6 +683,12 @@
         private System.Windows.Forms.Button btnCol6Row3;
         private System.Windows.Forms.Button btnCol6Row4;
         private System.Windows.Forms.Button btnCol6Row5;
+        private System.Windows.Forms.TextBox textCat1;
+        private System.Windows.Forms.TextBox textCat2;
+        private System.Windows.Forms.TextBox textCat3;
+        private System.Windows.Forms.TextBox textCat4;
+        private System.Windows.Forms.TextBox textCat5;
+        private System.Windows.Forms.TextBox textCat6;
     }
 }
 
