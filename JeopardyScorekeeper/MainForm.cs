@@ -16,9 +16,12 @@ namespace JeopardyScorekeeper
         //string filepath = @"C:/Users/Public/JeopardyScores/JeopardyScores.txt";
         string filepath = Properties.Settings.Default.filename;
 
-        List<Button> scoreButtons = new List<Button>();
+        Category[] categories;
+
+        public List<Button> scoreButtons = new List<Button>();
         double roundOneScore = 0;
         bool doubleJeopardy = false;
+        List<Question> questions = new List<Question>();
 
         public MainForm()
         {
@@ -28,6 +31,49 @@ namespace JeopardyScorekeeper
         private void MainForm_Load(object sender, EventArgs e)
         {
             AddButtonsToScoreButtons();
+            InitializeCategories();
+            
+        }
+
+        public void InitializeCategories()
+        {
+            categories = GetCategories();
+        }
+
+        public Category[] GetCategories()
+        {
+            Category[] categories = new Category[6];
+            for(var i = 0; i < 6; i++)
+            {
+                Category c = QuestionGrabber.GetCategory();
+                c.GenerateQuestions(); //initialize questions in object for easy access
+                categories[i] = c;
+            }
+            SetCategoryText(categories);
+            LoadQuestionsArray(categories);
+            Console.WriteLine(questions.ToString());
+            return categories;
+        }
+
+        public void LoadQuestionsArray(Category[] arr)
+        {
+            foreach(Category c in arr) {
+                //add the first 5 questions to the array
+                for(var i = 0; i < 5; i++)
+                {
+                    questions.Add(c.cluesQuestions[i]);
+                }
+            }
+        }
+
+        public void SetCategoryText(Category[] c)
+        {
+            btnCategory1.Text = c[0].title;
+            btnCategory2.Text = c[1].title;
+            btnCategory3.Text = c[2].title;
+            btnCategory4.Text = c[3].title;
+            btnCategory5.Text = c[4].title;
+            btnCategory6.Text = c[5].title;
         }
 
         public void AddButtonsToScoreButtons()
@@ -64,9 +110,145 @@ namespace JeopardyScorekeeper
             scoreButtons.Add(this.btnCol6Row5);
         }
 
+        #region hardcoded button click handlers 
+        private void btn1Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(1, (Button)sender);
+        }
+
+        private void btn2Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(2, (Button)sender);
+        }
+
+        private void btn3Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(3, (Button)sender);
+        }
+
+        private void btn4Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(4, (Button)sender);
+        }
+
+        private void btn5Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(5, (Button)sender);
+        }
+
+        private void btn6Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(6, (Button)sender);
+        }
+
+        private void btn7Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(7, (Button)sender);
+        }
+
+        private void btn8Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(8, (Button)sender);
+        }
+
+        private void btn9Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(9, (Button)sender);
+        }
+
+        private void btn10Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(10, (Button)sender);
+        }
+
+        private void btn11Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(11, (Button)sender);
+        }
+
+        private void btn12Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(12, (Button)sender);
+        }
+        private void btn13Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(13, (Button)sender);
+        }
+        private void btn14Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(14, (Button)sender);
+        }
+        private void btn15Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(15, (Button)sender);
+        }
+        private void btn16Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(16, (Button)sender);
+        }
+        private void btn17Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(17, (Button)sender);
+        }
+        private void btn18Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(18, (Button)sender);
+        }
+        private void btn19Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(19, (Button)sender);
+        }
+        private void btn20Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(20, (Button)sender);
+        }
+        private void btn21Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(21, (Button)sender);
+        }
+        private void btn22Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(22, (Button)sender);
+        }
+        private void btn23Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(23, (Button)sender);
+        }
+        private void btn24Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(24, (Button)sender);
+        }
+        private void btn25Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(25, (Button)sender);
+        }
+        private void btn26Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(26, (Button)sender);
+        }
+        private void btn27Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(27, (Button)sender);
+        }
+        private void btn28Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(28, (Button)sender);
+        }
+        private void btn29Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(29, (Button)sender);
+        }
+        private void btn30Clicked(object sender, EventArgs e)
+        {
+            generateQuestionForm(30, (Button)sender);
+        }
+        #endregion
+
         private void btnClicked(object sender, EventArgs e)
         {
+            generateQuestionForm();
             
+            /*
             Button btnSender = (Button)sender; //get reference to make method reusable
             if(btnSender.BackColor == Color.Blue)
             {
@@ -84,12 +266,29 @@ namespace JeopardyScorekeeper
                 }
             }
             SetScoreText(CalculateScore(scoreButtons));  
+            */
             
         }
 
         private void generateQuestionForm()
         {
+            
             QuestionForm qf = new QuestionForm(QuestionGrabber.GetQuestion());
+            qf.FormClosed += new FormClosedEventHandler(questionFormClosed);
+            qf.Show();
+            
+            
+        }
+
+        private void questionFormClosed(object sender, FormClosedEventArgs e)
+        {
+            Console.WriteLine("closing form");
+            SetScoreText(CalculateScore(scoreButtons));
+        }
+
+        private void generateQuestionForm(int index, Button parentButton)
+        {
+            QuestionForm qf = new QuestionForm(questions.ElementAt(index - 1), parentButton, this);
             qf.Show();
         }
 
@@ -109,10 +308,15 @@ namespace JeopardyScorekeeper
             }
             return result;
         }
-
+        
         public void SetScoreText(double score)
         {
             this.labelScore.Text = string.Format("${0}", roundOneScore + score);
+        }
+
+        public static void SetScoreTextStatic(double score)
+        {
+            
         }
 
         private void btnResetBoard_Click(object sender, EventArgs e)
@@ -142,9 +346,12 @@ namespace JeopardyScorekeeper
         private void ResetBoard(List<Button> buttons)
         {
             //reset the board without resetting round one score
+            questions = new List<Question>();
+            InitializeCategories();
             foreach (Button b in scoreButtons)
             {
                 b.BackColor = Color.Blue;
+                b.Enabled = true;
             }
 
             if(doubleJeopardy) //reset board to single jeopardy values
