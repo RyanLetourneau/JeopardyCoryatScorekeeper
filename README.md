@@ -1,9 +1,10 @@
 # JeopardyCoryatScorekeeper
 
-Keep track of your Jeopardy scores while watching episodes!
+Play simulated games of Jeopardy with real questions from the show! Keep track of your scores and try to improve your Coryat score! 
 
-TODO
-====
+Features
+========
+*Pulls questions from JService.io to fill a simulated Jeopardy board with 30 questions from 6 categories per round
+*Tracks and save scores so you can see your progress over time
+*Tens of thousands of non-repeating questions
 
--Add six extra tiles at the top where users can type in the categories in each round (sometimes it's hard to keep track if the game is moving fast)
--Process stats and output reports in some meaningful way (avg score all-time, in a range, etc)
