@@ -254,16 +254,13 @@ namespace JeopardyScorekeeper
             {
                 btnSender.BackColor = Color.Green;
             }
+            else if(btnSender.BackColor == Color.Green)
+            {
+                btnSender.BackColor = Color.Red;
+            }
             else
             {
-                if(btnSender.BackColor == Color.Green)
-                {
-                    btnSender.BackColor = Color.Red;
-                }
-                else
-                {
-                    btnSender.BackColor = Color.Blue;
-                }
+                btnSender.BackColor = Color.Blue;
             }
             SetScoreText(CalculateScore(scoreButtons));  
             */
